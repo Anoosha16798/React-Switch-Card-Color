@@ -16,8 +16,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn install --frozen-lockfile
-    - run: yarn build --if-present
     - run: curl -O https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-linux.zip
     - run: apt-get install unzip
     - run: unzip sonar-scanner-cli-4.4.0.2170-linux.zip
