@@ -12,8 +12,7 @@ right?:any
 /*REVIEW*/
 
 /*Let us check
-
-what happens now */
+what happens now  any change?*/
 class Cards extends React.Component<any,BState>{
     constructor(props:any){
         super(props);
