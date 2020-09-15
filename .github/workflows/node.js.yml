@@ -19,6 +19,5 @@ jobs:
     - run: curl -O https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-linux.zip
     - run: sudo apt-get install unzip
     - run: unzip sonar-scanner-cli-4.4.0.2170-linux.zip
-    - run: pwd
-    - run: ls -a
-    - run: /sonar-scanner-cli-4.4.0.2170-linux/bin/sonar-scanner -D"sonar.projectKey=monster" -D"sonar.sources=." -D"sonar.host.url=http://localhost:4950" -D"sonar.login=056ce3d3babedffbed1d4b4eb03e3958e6973479"
+    - run: sudo apt install tree | tree
+    - run: /home/runner/work/React-Switch-Card-Color/React-Switch-Card-Color/sonar-scanner-4.4.0.2170-linux/bin/sonar-scanner -D"sonar.projectKey=monster" -D"sonar.sources=." -D"sonar.host.url=http://localhost:4950" -D"sonar.login=056ce3d3babedffbed1d4b4eb03e3958e6973479"
