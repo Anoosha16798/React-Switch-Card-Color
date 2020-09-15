@@ -10,6 +10,10 @@ right?:any
 
 
 /*REVIEW*/
+
+/*Let us check
+
+what happens now */
 class Cards extends React.Component<any,BState>{
     constructor(props:any){
         super(props);
